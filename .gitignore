@@ -1,5 +1,9 @@
+.vscode/
+.idea/
+
 # Binaries for programs and plugins
 *.exe
+golang-crud-rest-api
 *.exe~
 *.dll
 *.so
