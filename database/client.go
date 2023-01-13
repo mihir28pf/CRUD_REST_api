@@ -12,7 +12,7 @@ var Instance *gorm.DB
 var err error
 
 func Connect(connectionString string) {
-	Instance, err = gorm.Open(mysql.Open(connectionString), &gorm.Config{})
+	Instance, err = gorm.Open(mysql.Open("root:root@tcp(127.0.0.1:3306)/crud_demo"), &gorm.Config{})
 	if err != nil {
 		log.Fatal(err)
 		panic("Cannot connect to DB")
