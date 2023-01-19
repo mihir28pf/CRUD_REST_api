@@ -1,7 +1,7 @@
 version: '3'
 services:
   crudrest:
-   image: mihir6:latest
+   image: crudrestapi:V3
    container_name: crudrest
    restart: always
    depends_on:
