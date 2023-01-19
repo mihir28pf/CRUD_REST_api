@@ -1,14 +1,10 @@
 name: Docker Image CI
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+on: push
 
 jobs:
 
-  build:
+  push_to_docker_hub:
 
     runs-on: ubuntu-latest
 
