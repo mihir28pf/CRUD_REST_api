@@ -1,7 +1,7 @@
 version: '3'
 services:
   crudrest:
-   image: crudrestapi:V3
+   image: crudrestapi:V1
    container_name: crudrest
    restart: always
    depends_on:
